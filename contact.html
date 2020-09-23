@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="contact.css">
+     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@600&display=swap" rel="stylesheet">
+    <title>Layla - Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white"><span>LAYLA Ltd</span> 
+          <img class="logo" src="laylalogo.svg" height="45px" width="45px">
+          <ul>
+            <li><a href="index.html">Home | صفحة الرئيسية</a></li>
+            <li>Contact | صفحة تواصل</li>
+            <li>About Us | عن الشريكة</li>
+            <li><em>langauge (English | العربية)</em></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="container-fluid d-flex flex-row mt-5">
+            <div class="sticky-sidebar col-4 d-flex flex-row" id="sidebar-wrapper">
+                <div class="sidebar-heading sticky-top">
+                </div>
+                <div class="p-4">  
+                      <h2>للإستفسار بي الايميل</h2>
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1"> Your Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <input class="form-control" type="text" placeholder="Subject">
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1" class="p-1">Write Here</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger mb-2">Submit Enquiry</button>
+                      </form>
+                      
+                  </div>             
+              </div>
+              <div class="row pl-5 col-5">
+                <div class="p-3 ml-3" id="map"></div>
+                <p class="address text-center">
+                    133 Broadley St,
+                    Marylebone, London, NW8 8BA <br>
+                    United Kingdom 
+                 </p>
+              </div>  
+              <div class="row">
+                  <div class="text-center mt-4">
+                <h5>للإستفسار بي التلفون</h5>
+                <p class="phone">+44 (0) 207 7238555</p>
+                <p class="phone">+44 (0) 79544 66888</p>
+                <p class="phone">+44 (0) 7984 919818</p>
+
+                <h5>ساعات العمل</h5>
+              <p class="hours">
+                 Monday    11am - 7pm <br>
+                 Tuesday   11am - 7pm <br>
+                 Wednesday 11am - 7pm <br>
+                 Thursday  11am - 7pm <br>
+                 Friday    11am - 7pm <br>
+                 Saturday  11am - 7pm <br>
+                 Sunday    Closed
+              </p> 
+              </div>
+            </div>
+    </div>
+
+      <footer class="bg-dark w-100 p-3 end" id="sticky-footer">
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+            <li class="text-muted">Layla Ltd 2016-2020</li>
+            <li><a class="text-muted" href="#"><img src="208811.svg" width="100px" height="88px"></a></li>
+          </ul>
+        </div>
+      </footer>
+
+          <script src="map-marker.js"></script>
+          <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU5Rv4mf5jlPpft3DP9gzIKRH8GrwwUpc&callback=initMap"></script>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+   integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+</body>
+</html>
